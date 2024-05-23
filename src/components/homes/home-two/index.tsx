@@ -25,13 +25,13 @@ const HomeTwo = () => {
          <About />
          <Service />
          <SkillArea />
-         <Project />
-         <FAQ />
          <Counter />
          <PricingPlan />
          <VideoArea />
-         <Testimonial />
          <WorkArea />
+         <Testimonial />
+         {/* <Project /> */}
+         <FAQ />
          {/* <Team/> */}
          <Blog />
          <Brand />
