@@ -17,12 +17,12 @@ const Banner = () => {
             <div className="row">
                <div className="col-lg-9 col-md-12">
                   <div className="banner-inner">
-                     <h4 className="sub-title">Tecnologia Avançada</h4>
+                     <h4 className="sub-title">Aumente seus Lucros</h4>
                      <h2 className="title">Soluções Inteligentes <span>Negócios de Sucesso</span></h2>
                      <p className="content">Utilize das tecnologias de ponta usadas por grandes empresa, para almentar seus lucros e fazer seu negócio crescer exponencialmente</p>
                      <div className="btn-wrap banner-2-btn">
-                        <Link className="it-btn btn-base" href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsapp</Link>
-                        <Link className="it-btn btn-black" href="/contact">Ver Serviços</Link>
+                        <Link target="_blank"  className="it-btn btn-base" href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsapp</Link>
+                        <Link className="it-btn btn-black" href="#services">Ver Serviços</Link>
                      </div>
                   </div>
                </div>

@@ -18,14 +18,14 @@ interface ContentType {
 }
 
 const abount_content: ContentType = {
-   sub_title: "About US",
-   title: "We execute our ideas form the start to finish.",
-   desc_1: (<>Maecenas tempus, tellus eget condime honcus sem quam semper libero sit amet adipiscingem neque sed imquam nunullam quis ante. Etiam sit amet orci.</>),
-   desc_2: (<>Duis leo. Sed fringilla mauris siamet nibh. odales sagittis magna. Sed consequat</>),
+   sub_title: "Sobre Nós",
+   title: "Nós Tiramos suas ideias do papel do começo ao fim.",
+   desc_1: (<>Nós somos os especialistas em tecnologia e temos ferramenta e estratégias que vão te dar uma imensa vantagem no mercado independente do seu nicho.</>),
+   desc_2: (<>Temos os maiores resultados do mercado garantindo liderança no mercado de tcnologia</>),
    counter_details: [
-      { count: 20, counter_text: "Y", desc: "Experiences" },
-      { count: 41, counter_text: "M", desc: "Happy client" },
-      { count: 20, counter_text: "Y", desc: "Experiences" },
+      { count: 10, counter_text: "Anos", desc: "Experiencia" },
+      { count: 315, counter_text: "", desc: "Clientes Satisfeitos" },
+      { count: 527, counter_text: "", desc: "Projetos concluidos" },
    ]
 }
 

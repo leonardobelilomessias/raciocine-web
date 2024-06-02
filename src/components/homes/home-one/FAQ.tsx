@@ -23,8 +23,8 @@ const FAQ = () => {
                <div className="col-lg-6 pe-xl-5 order-lg-first align-self-center">
                   <div className="section-title mb-0">
                      <h5 className="sub-title right-line">Faq</h5>
-                     <h2 className="title">Know more about our it solution</h2>
-                     <p className="content">Maecenas tempus, tellus eget condime honcus sem quam semper libero sit amet adipiscingem neque</p>
+                     <h2 className="title">Perguntas Frequentes</h2>
+                     <p className="content">Algumas perguntas que alguns cliente peguntam quando vão contratar nossos serviços.</p>
                   </div>
                   <div className="accordion mt-4" id="accordionExample">
                      <CommonFaq />

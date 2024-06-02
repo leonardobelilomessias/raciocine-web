@@ -10,19 +10,20 @@ import SkillArea from "./SkillArea"
 import Blog from "@/components/homes/home-one/Blog"
 import CtaArea from "@/components/common/CtaArea"
 import FooterOne from "@/layouts/footers/FooterOne"
+import HeaderTwo from "@/layouts/headers/HeaderTwo"
 
 const About = () => {
   return (
     <>
-      <HeaderOne />
-      <Breadcrumb title="About Us" sub_title="About Us" />
+      <HeaderTwo />
+      <Breadcrumb title="Sobre Nós" sub_title="Sobre Nós" />
       <HomeOneAbout />
       <ChooseArea />
       <Counter />
       <FAQ />
-      <Team style={true} />
+      {/* <Team style={true} /> */}
       <Testimonial />
-      <SkillArea style={false} />
+      {/* <SkillArea style={false} /> */}
       <Blog />
       <CtaArea />
       <FooterOne />

@@ -6,9 +6,9 @@ const ContactArea = () => {
             <div className="row justify-content-center">
                <div className="col-lg-6 col-md-9">
                   <div className="section-title text-center">
-                     <h5 className="sub-title double-line">Contact</h5>
-                     <h2 className="title">Get in touch</h2>
-                     <p className="content">Dcidunt eget semper nec quam. Sed hendrerit. acfelis Nunc egestas augue atpellentesque laoreet</p>
+                     <h5 className="sub-title double-line">Contato</h5>
+                     <h2 className="title">Entre em contato</h2>
+                     <p className="content">Nosso tempo medio de Resposta é de 5 minutos.Entre em contato e fale com nosso time.</p>
                   </div>
                </div>
             </div>
@@ -20,8 +20,8 @@ const ContactArea = () => {
                      </div>
                      <div className="details-wrap">
                         <div className="details-inner">
-                           <h3>Office address</h3>
-                           <p>7895 Piermont, Albuquerque, NM 198866, USA</p>
+                           <h3>Endereço do Escritorio</h3>
+                           <p>Rua Alagoas 1326 - Savassi - Belo Horizonte - Minas Gerais - Brazil</p>
                         </div>
                      </div>
                   </div>
@@ -33,8 +33,8 @@ const ContactArea = () => {
                      </div>
                      <div className="details-wrap">
                         <div className="details-inner">
-                           <h3>Email Address</h3>
-                           <p>support@gmail.com <br /> www.infomar.net</p>
+                           <h3>Endereço de Email</h3>
+                           <p>raciocinesoftware@gmail.com <br /> www.raciocine.com</p>
                         </div>
                      </div>
                   </div>
@@ -46,8 +46,8 @@ const ContactArea = () => {
                      </div>
                      <div className="details-wrap">
                         <div className="details-inner">
-                           <h3>Phone Number</h3>
-                           <p>+012 (345) 678 99 <br /> +12345678</p>
+                           <h3>Número Whatsapp</h3>
+                           <p>(31) 998626 - 1771 <br /> +</p>
                         </div>
                      </div>
                   </div>

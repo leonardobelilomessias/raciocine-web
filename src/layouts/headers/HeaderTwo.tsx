@@ -46,7 +46,9 @@ const HeaderTwo = () => {
                </div>
                <div className="nav-right-part nav-right-part-desktop align-self-center">
 
-                  <Link className="it-btn btn-black" href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsapp</Link>
+                  <Link target="_blank"  className="it-btn btn-black" href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsapp</Link>
+                  <Link  className="it-btn btn-blue u" href="/login"><u>Area do cliente</u></Link>
+
                </div>
             </div>
          </nav>

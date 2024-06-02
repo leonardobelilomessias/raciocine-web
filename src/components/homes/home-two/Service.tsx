@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Service = () => {
    return (
-      <div className="service-area pd-top-115 pd-bottom-90" style={{ backgroundImage: `url(/assets/img/bg/6.webp)` }}>
+      <div id="services" className="service-area pd-top-115 pd-bottom-90" style={{ backgroundImage: `url(/assets/img/bg/6.webp)` }}>
          <div className="container">
             <div className="section-title">
                <div className="row">

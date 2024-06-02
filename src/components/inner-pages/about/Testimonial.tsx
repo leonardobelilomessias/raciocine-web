@@ -3,7 +3,7 @@ import testimonial_data from "@/data/TestimonialData"
 import Image from "next/image"
 import { useRef } from "react"
 import Slider from "react-slick"
-
+import imageIcon from  "@/assets/img/testimonial/02.webp"
 const setting = {
    infinite: true,
    speed: 300,
@@ -59,19 +59,19 @@ const Testimonial = () => {
             <div className="row justify-content-center">
                <div className="col-lg-6 col-md-10">
                   <div className="section-title text-center">
-                     <h5 className="sub-title double-line">Client Feedback</h5>
-                     <h2 className="title">Check what’s our client say </h2>
-                     <p className="content">Dcidunt eget semper nec quam. Sed hendrerit. acfelis Nunc egestas augue atpellentesque laoreet</p>
+                     <h5 className="sub-title double-line">Comentarios de Clientes</h5>
+                     <h2 className="title">Veja o que nossos clientes estão comentando. </h2>
+                     <p className="content">Nosso trabalho é orientado a resultados e a realização dos nossos clientes é nosso combustivel.</p>
                   </div>
                </div>
             </div>
             
             <div className="testimonial-slider-2 slider-control-round bg-relative">
                <Slider {...setting} ref={sliderRef} className="style-active-bg owl-carousel">
-                  {testimonial_data.filter((items) => items.page === "inner_page").map((item) => (
+                  {testimonial_data.filter((items) => items.page === "home_2").map((item) => (
                      <div key={item.id} className="item">
                         <div className="single-testimonial-inner style-4">
-                           <Image className="shaddow-img" src={item.img} alt="img" />
+                           <Image className="shaddow-img" src={imageIcon} alt="img" />
                            <div className="details">
                               <p>{item.desc}</p>
                               <h4>{item.name}</h4>

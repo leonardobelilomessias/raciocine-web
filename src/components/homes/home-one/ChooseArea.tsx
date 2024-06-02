@@ -21,10 +21,11 @@ const ChooseArea = () => {
                
                <div className="col-lg-6 order-lg-first align-self-center">
                   <div className="section-title px-lg-5 mb-0">
-                     <h5 className="sub-title right-line">Why Choose Us</h5>
-                     <h2 className="title">We execute our ideas form the start to finish.</h2>
-                     <p className="content">Maecenas tempus, tellus eget condime honcus semgs semper libero sit amet
-                        adipiscingem neque.</p>
+                     <h5 className="sub-title right-line">Porque Somos os melhores?</h5>
+                     <h2 className="title">Temos o melhor atendimento do mercado</h2>
+                     <p className="content">
+                        Nosso atendimento passa por criterios de qualidade garantindo que teremos o solução ideal para você.
+                     </p>
                      <div className="choose-wrap mt-4">
                         <div className="media single-choose-inner">
                            <div className="media-left">
@@ -33,8 +34,8 @@ const ChooseArea = () => {
                               </div>
                            </div>
                            <div className="media-body">
-                              <h4>Flexible Solutions</h4>
-                              <p>Maecenas tempus, tellus eget condime honcus sem quam semper </p>
+                              <h4>Soluções Personalizadas</h4>
+                              <p>Analizamos o seu projeto com de forma que possamos ter a solução acertiva para seu modelo de negócio. </p>
                            </div>
                         </div>
                         <div className="media single-choose-inner mb-3">
@@ -44,8 +45,8 @@ const ChooseArea = () => {
                               </div>
                            </div>
                            <div className="media-body">
-                              <h4>24/7 Unlimited Support</h4>
-                              <p>Maecenas tempus, tellus eget condime honcus sem quam semper </p>
+                              <h4>24/7 Atendimento Humano</h4>
+                              <p>Sem conversa com Robos. Nosso suporte é feito por pessoas reais que vão dar a atenção que seu negocio merece </p>
                            </div>
                         </div>
                      </div>

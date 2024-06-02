@@ -35,8 +35,8 @@ const About = () => {
                
                <div className="col-lg-6 align-self-center">
                   <div className="section-title px-lg-5 mb-0">
-                     <h5 className="sub-title left-border">Raciocine o sucesso</h5>
-                     <h2 className="title">O Máximo da Tecnologia para Resultados Extratosféricos</h2>
+                     <h5 className="sub-title left-border">Raciocine com Tecnologia</h5>
+                     <h2 className="title">Aumente os Lucros e Seja Referência de Mercado com Tecnologia.</h2>
                      <p className="content-strong mt-2">Somos especialistas em desenvolvimento de tecnologia, que oferecem uma gigante vantagem no mercado.</p>
                      <ul className="nav nav-tabs tab-button-style mt-4" id="myTab" role="tablist">
                         {tab_title.map((tab, index) => (
