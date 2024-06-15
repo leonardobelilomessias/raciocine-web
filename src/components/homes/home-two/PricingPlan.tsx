@@ -34,7 +34,7 @@ const PricingPlan = () => {
                                         ))}
                                     </ul>
                                     <div className="btn-wrap text-center">
-                                        <Link className="it-btn btn-black" href="#">Contratar Serviço</Link>
+                                        <Link className="it-btn btn-black" target="_blank"  href={`https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços de criação de ${item.plan}.`}>Contratar Serviço</Link>
                                     </div>
                                 </div>
                             </div>

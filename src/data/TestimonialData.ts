@@ -4,7 +4,7 @@ import testiThumb_1 from "@/assets/img/testimonial/1.webp";
 import testiThumb_2 from "@/assets/img/testimonial/2.webp";
 import testiThumb_3 from "@/assets/img/testimonial/3.webp";
 import testiThumb_4 from "@/assets/img/testimonial/4.webp";
-import testiThumb_5 from "@/assets/img/testimonial/1.webp";
+import testiThumb_5 from "@/assets/img/testimonial/5.webp";
 import testiThumb_6 from "@/assets/img/testimonial/2.webp";
 import testimonialIcon_1 from "@/assets/img/testimonial/4.webp"
 import testimonialIcon_2 from "@/assets/img/about/h5-2.webp"
@@ -58,7 +58,7 @@ const testimonial_data: DataType[] = [
    {
       id: 1,
       page: "home_2",
-      img: testiThumb_3,
+      img: testiThumb_1,
       name: "Julia Silva",
       designation: "Fisioterapeuta",
       desc: "Tinha dificuldade em me posicionar no mercado digital e me sentia sempre perdida contratei o serviço e pude aumentar o numero de consultas semanalmente.",
@@ -66,7 +66,7 @@ const testimonial_data: DataType[] = [
    {
       id: 2,
       page: "home_2",
-      img: testiThumb_4,
+      img: testiThumb_2,
       name: "Pedro Dantas",
       designation: "Loja de artigos esportivos",
       desc: "Fui muito bem atendido no processo de transição de outra empresa. Recebi uma consultoria que vale ouro! Consigo vender mais e evitar carrinhos abandonados na minha loja",
@@ -74,7 +74,7 @@ const testimonial_data: DataType[] = [
    {
       id: 3,
       page: "home_2",
-      img: testiThumb_5,
+      img: testiThumb_3,
       name: "Alicia Nunes",
       designation: "Cunsultora em Marketing",
       desc: "Atuo na área de marketing e precisava de um página de captura de leads configurada em um curto prazo. Raciocine cumpriu todos os prazos e com uma qualidade excepcional. Recomendo!",
@@ -82,7 +82,7 @@ const testimonial_data: DataType[] = [
    {
       id: 4,
       page: "home_2",
-      img: testiThumb_6,
+      img: testiThumb_4,
       name: "Jorge Moura",
       designation: "Micro Empreendedor",
       desc: "Minha Empresa Hoje recebe mais ligações atráves de um serviço de anúncios e criação de página que contratei. Agora posso focar apenas no atendimento ao cliente. ",
@@ -90,7 +90,7 @@ const testimonial_data: DataType[] = [
    {
       id: 5,
       page: "home_2",
-      img: testiThumb_4,
+      img: testiThumb_5,
       name: "Fabiana Vieira",
       designation: "Educadora",
       desc: "Tenho muito pouca habilidade com tecnologia e queria saber como poderia me encontrar no mundo digital. Tive uma consultoria que me abriu um mundo de pssibilidades",
@@ -98,7 +98,7 @@ const testimonial_data: DataType[] = [
    {
       id: 6,
       page: "home_2",
-      img: testiThumb_5,
+      img: testiThumb_6,
       name: "Arthur Gomes",
       designation: "Empresário",
       desc: "Contratei um serviço de aplicativo para gerenciar os clientes da minha empresa. Estou muito satisfeito com os resultados.",

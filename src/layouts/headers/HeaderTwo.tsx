@@ -22,9 +22,9 @@ const HeaderTwo = () => {
    return (
       <>
          <HeaderTopTwo />
-         <nav className={`navbar navbar-area navbar-area-2 navbar-expand-lg ${sticky ? "sticky-active" : ""}`}>
-            <div className="container nav-container">
-               <div className="responsive-mobile-menu">
+         <nav className={`navbar navbar-area navbar-area-2 navbar-expand-lg ${sticky ? "sticky-active" : ""} `}>
+            <div className="container nav-container d-flex ">
+               <div className="responsive-mobile-menu pb-2 ">
                   <button
                      onClick={toggleMobileMenu}
                      className={`menu toggle-btn d-block d-lg-none ${isActive ? "open" : ""}`} data-target="#Iitechie_main_menu"
@@ -36,10 +36,11 @@ const HeaderTwo = () => {
                <div className="logo d-inline-block d-lg-none">
                   <Link href="/"><Image src={logo_1} alt="img" /></Link>
                </div>
-               <div className="nav-right-part nav-right-part-mobile">
+               <div className="nav-right-part nav-right-part-mobile ">
 
                </div>
-               <div className={`collapse navbar-collapse ${isActive ? "sopen" : ""}`} id="Iitechie_main_menu">
+               
+               <div className={`collapse navbar-collapse ${isActive ? "sopen" : ""} `} id="Iitechie_main_menu">
                   <ul className="navbar-nav menu-open text-lg-start">
                      <NavMenu />
                   </ul>
@@ -47,7 +48,7 @@ const HeaderTwo = () => {
                <div className="nav-right-part nav-right-part-desktop align-self-center">
 
                   <Link target="_blank"  className="it-btn btn-black" href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsapp</Link>
-                  <Link  className="it-btn btn-blue u" href="/login"><u>Area do cliente</u></Link>
+                  {/* <Link  className="it-btn btn-blue u" href="/login"><u>Area do cliente</u></Link> */}
 
                </div>
             </div>

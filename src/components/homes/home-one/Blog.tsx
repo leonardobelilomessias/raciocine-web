@@ -10,9 +10,8 @@ const Blog = () => {
                <div className="col-xl-6 col-lg-7 col-md-9">
                   <div className="section-title text-center">
                      <h5 className="sub-title double-line">blog Post</h5>
-                     <h2 className="title">Read Our Latest Tips &Tricks</h2>
-                     <p className="content">Dcidunt eget semper nec quam. Sed hendrerit. acfelis Nunc egestas augue
-                        atpellentesque laoreet</p>
+                     <h2 className="title">Nosso Blog de noticias</h2>
+                     <p className="content">Fique por dentro do que está acontecendo no mercado de tecnologia com conteúdo atualizado diariamente.</p>
                   </div>
                </div>
             </div>
@@ -28,9 +27,9 @@ const Blog = () => {
                            </ul>
                         </div>
                         <div className="details">
-                           <h4><Link href="/blog-details">{item.title}</Link></h4>
+                           <h4><Link href="/#">{item.title}</Link></h4>
                            <p>{item.desc}</p>
-                           <Link className="read-more-btn" href="/blog-details"><i className="fa fa-arrow-right"></i></Link>
+                           <Link className="read-more-btn" href="/#"><i className="fa fa-arrow-right"></i></Link>
                         </div>
                      </div>
                   </div>

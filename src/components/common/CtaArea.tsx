@@ -11,7 +11,7 @@ const CtaArea = () => {
                   <div className="single-call-to-action-inner style-white">
                      <h5>Ficou Alguma Dúvida?</h5>
                      <h2>Entre em contato com um de nossos Especialista</h2>
-                     <Link className="it-btn btn-black mt-3" href="/contact">Chamar no Whatsaap</Link>
+                     <Link className="it-btn btn-black mt-3" target="_blank"  href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsaap</Link>
                   </div>
                </div>
             </div>

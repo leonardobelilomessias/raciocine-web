@@ -22,6 +22,7 @@ interface DataType {
    desc: string;
    icon_img?:StaticImageData;
    hover_icon_img?:StaticImageData;
+   link?:string
 }[];
 
 const service_data: DataType[] = [
@@ -61,6 +62,7 @@ const service_data: DataType[] = [
       icon: "icomoon-layer",
       title: "Criação de Apps",
       desc: "Criação e Desenvolvimento de aplicativos mobile para plataformas ios e android.",
+      link:"/desenvolvimento-de-aplicativos"
    },
    {
       id: 2,
@@ -68,6 +70,7 @@ const service_data: DataType[] = [
       icon: "icomoon-application",
       title: "Web design",
       desc: "Criação e Desenvolvimento de  landing pages, sites intitucionais e lojas virtuais.",
+      link:"/createsites"
    },
    {
       id: 3,
@@ -75,6 +78,7 @@ const service_data: DataType[] = [
       icon: "icomoon-megaphone",
       title: "Trafego Pago",
       desc: "Criação de Anúncios e publicidade em grandes plataformas como Facebook e Google. ",
+      link:"/trafego-pago"
    },
    {
       id: 4,
@@ -82,6 +86,7 @@ const service_data: DataType[] = [
       icon: "icomoon-cloud-data",
       title: "Consultoria em T.I",
       desc: "Analise desenvolvimento de soluções para transição de negócios para o mundo digital. ",
+      link:"/consultoria-ti"
    },
 
    {
@@ -90,6 +95,7 @@ const service_data: DataType[] = [
       icon: "icomoon-lock",
       title: "Segurança Virtual",
       desc: "Analise, correção e prevenção de ataques e crimes constra  estruturas digitais. ",
+      link:"/"
    },
    {
       id: 6,
@@ -97,6 +103,7 @@ const service_data: DataType[] = [
       icon: "icomoon-magnifiying-glass",
       title: "Seo Rankeamento",
       desc: "Posicionamento no topo da lista dos principais mecanismos de busca como Google.",
+      link:"/seo"
    },
 
    // home_5

@@ -14,7 +14,7 @@ const Service = () => {
                   </div>
                   <div className="col-xl-6 col-lg-5 align-self-center">
                      <div className="btn-wrap text-md-end">
-                        <Link className="it-btn btn-base" href="/service">Ver Todos Serviços</Link>
+                        {/* <Link className="it-btn btn-base" href="/service">Ver Todos Serviços</Link> */}
                      </div>
                   </div>
                </div>
@@ -35,7 +35,7 @@ const Service = () => {
                            <div className="details-hover">
                               <h3>{item.title}</h3>
                               <p>{item.desc}</p>
-                              <Link className="it-btn btn-base btn-small" href="/service-details">Ver Detalhes</Link>
+                              <Link  className="it-btn btn-base btn-small" href={`${item.link}`}>Ver Detalhes</Link>
                            </div>
                         </div>
                      </div>

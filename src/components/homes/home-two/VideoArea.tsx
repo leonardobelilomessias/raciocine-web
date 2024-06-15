@@ -16,17 +16,17 @@ const VideoArea = () => {
                      <div className="section-title mb-4 style-white">
                         <h2 className="title">Nós Fazemos Parte do Mercado do Futuro.</h2>
                      </div>
-                     <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="video-play-btn video-play-btn-base" data-effect="mfp-zoom-in"><i className="fa fa-play"></i></a>
+                     {/* <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="video-play-btn video-play-btn-base" data-effect="mfp-zoom-in"><i className="fa fa-play"></i></a> */}
                   </div>
                </div>
             </div>
          </div>
          {/* video modal start */}
-         <VideoPopup
+         {/* <VideoPopup
             isVideoOpen={isVideoOpen}
             setIsVideoOpen={setIsVideoOpen}
             videoId={"tUP5S4YdEJo"}
-         />
+         /> */}
          {/* video modal end */}
       </>
    )
