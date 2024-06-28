@@ -16,8 +16,8 @@ const Servicedetails = ({title, sub_title}:{title?:string, sub_title?:string}) =
       <HeaderTwo/>
       <Breadcrumb title={title} sub_title={sub_title}/>
       <ServiceDetailsArea/>
-      <VideoArea/>
-      <Super/>
+      {/* <VideoArea/> */}
+      {/* <Super/> */}
       <PricingPlan/>
       <CtaArea/>
       <FooterOne/>

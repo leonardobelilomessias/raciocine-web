@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { useState } from "react"
 
-import aboutThumb from "@/assets/img/about/3.webp";
+import aboutThumb from "@/assets/img/about/business-man.png";
 
 const tab_title: string[] = ["Nossa Missão", "Nossa Visão ",];
 

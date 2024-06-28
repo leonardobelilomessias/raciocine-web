@@ -2,7 +2,8 @@ import Skillbar from "@/components/common/Skillbar"
 import SocialIcon from "@/components/common/SocialIcon"
 import Image from "next/image"
 
-import teamDetailsThumb from "@/assets/img/team/professional.png"
+import teamDetailsThumb from "@/assets/img/service/apps/build-app.jpg"
+import Link from "next/link"
 
 const ServiceDetailsArea = () => {
    return (
@@ -16,12 +17,14 @@ const ServiceDetailsArea = () => {
                </div>
                <div className="col-lg-6 col-12 align-self-center">
                   <div className="team-details-info">
-                     <h3>Aplicativos Para Android ou Ios</h3>
+                     <h2>Aplicativos Para Android ou Ios</h2>
                      <p className="designation">App Sobre Medida</p>
                      <p className="content">
                         Um  Aplicativo leva sua empresa para outro patamar. Criando um app sob medida você pode ter vantagem competitiva no mercado. Dê forma as suas ideias e acelere os resultados sa sua empresa com um aplicativo personalizados de acordo com a necessidade do seu negócio
                      </p>
                   </div>
+                  <div className=" d-flex "><Link target="_blank"  href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços de criação de aplicativos." className="it-btn btn-black mt-12 align-self-center"> Quero contratar</Link></div>
+
                </div>
             </div>
             

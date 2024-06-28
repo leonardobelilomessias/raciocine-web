@@ -8,6 +8,7 @@ import PricingPlan from "@/components/homes/home-two/PricingPlan"
 import ServiceDetailsArea from "./ServiceDetailsArea"
 import Super from "./Super"
 import VideoArea from "./VideoArea"
+import MakeMoney from "./MakeMoney"
 
 
 const Servicedetails = ({title, sub_title}:{title?:string, sub_title?:string}) => {
@@ -16,9 +17,10 @@ const Servicedetails = ({title, sub_title}:{title?:string, sub_title?:string}) =
       <HeaderTwo/>
       <Breadcrumb title={title} sub_title={sub_title}/>
       <ServiceDetailsArea/>
-      <VideoArea/>
-      <Super/>
-      <PricingPlan/>
+      <MakeMoney/>
+      {/* <VideoArea/> */}
+      {/* <Super/> */}
+      {/* <PricingPlan/> */}
       <CtaArea/>
       <FooterOne/>
     </>
