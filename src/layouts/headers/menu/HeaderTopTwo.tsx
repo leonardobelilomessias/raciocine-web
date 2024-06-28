@@ -39,7 +39,7 @@ const HeaderTopTwo = () => {
                   <div className="social-media-light text-md-end text-center">
                      <Link target="_blank" href="https://www.facebook.com/profile.php?id=61554327154649"><i className="fab fa-facebook-f" aria-hidden="true"></i></Link>
                      {/* <Link href="#"><i className="fab fa-twitter" aria-hidden="true"></i></Link> */}
-                     <Link target="_blank" href="https://www.instagram.com/raciocinesoftware/"><i className="fab fa-instagram" aria-hidden="true"></i></Link>
+                     <Link target="_blank" href="https://www.instagram.com/raciocinesolucoes"><i className="fab fa-instagram" aria-hidden="true"></i></Link>
                      <Link target="_blank" href="https://www.youtube.com/channel/UCMzeWJnftwbxYFTDekhRwzg"><i className="fab fa-youtube" aria-hidden="true"></i></Link>
                   </div>
                </div>

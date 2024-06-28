@@ -12,11 +12,11 @@ const footer_data: DataType[] = [
       id: 1,
       title: "Serviços",
       nav_links: [
-         { link: "service", title: "Criação de sites" },
-         { link: "service", title: "Criação de Apps" },
-         { link: "service", title: "Trafego Pago" },
-         { link: "service", title: "Web Desing" },
-         { link: "service", title: "Segurança Virtual" },
+         { link: "createsites", title: "Criação de sites" },
+         { link: "desenvolvimento-de-aplicativos", title: "Criação de Apps" },
+         { link: "trafego-pago", title: "Trafego Pago" },
+         { link: "/consultoria-ti", title: "Web Desing" },
+         { link: "/#", title: "Segurança Virtual" },
       ],
    },
    {
@@ -24,9 +24,9 @@ const footer_data: DataType[] = [
       title: "Links Úteis",
       nav_links: [
          { link: "about", title: "Sobre Nós" },
-         { link: "team", title: "Equipe" },
-         { link: "project", title: "Portfolio" },
-         { link: "service", title: "Serviços" },
+         { link: "#", title: "Equipe" },
+         { link: "#", title: "Portfolio" },
+         { link: "#", title: "Serviços" },
          { link: "contact", title: "Contato" },
       ]
    },

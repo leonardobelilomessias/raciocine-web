@@ -6,7 +6,7 @@ import { useParallax } from "@/hooks/TweenMax";
 import { useRef } from "react";
 
 import banner_1 from "@/assets/img/banner/6.webp";
-import banner_2 from "@/assets/img/banner/7.webp";
+import banner_2 from "@/assets/img/banner/bannerx.png";
 
 const Banner = () => {
 
@@ -20,20 +20,22 @@ const Banner = () => {
             <div className="row justify-content-center">
                <div className="col-lg-6 col-md-7 text-center text-lg-end order-lg-last">
                   <div className="banner-mask-bg-wrap mb-5 mb-lg-0">
-                     <Image className="shape-image" src={banner_1} alt="img" />
-                     <div className="thumb">
+                     
+                     <div >
                         <Image src={banner_2} alt="img" />
                      </div>
                   </div>
                </div>
                <div className="col-lg-6 col-md-9 order-lg-first align-self-center">
                   <div className="banner-inner style-white  text-center text-lg-start">
-                     <h4 className="sub-title">Best it solution</h4>
-                     <h2 className="title">Creating a better IT solutions</h2>
-                     <p className="content">Dcidunt eget semper nec quam. Sed hendrerit morbi ac felis. Nunc egestas augue pellentesque</p>
+                     <h4 className="sub-title">Aumente seus Lucros</h4>
+                     <h2 className="title">Soluções Inteligentes</h2>
+                     <h2 className="title">Negócios de Sucesso</h2>
+
+                     <p className="content">Utilize das tecnologias de ponta usadas por grandes empresa, para almentar seus lucros e fazer seu negócio crescer exponencialmente</p>
                      <div className="btn-wrap">
-                        <Link className="it-btn btn-base mr-space" href="/blog">Get Started</Link>
-                        <Link className="it-btn btn-border-white" href="/contact">Contact Us</Link>
+                        <Link target="_black" className="it-btn btn-base mr-space" href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsapp</Link>
+                        <Link className="it-btn btn-border-white" href="#services">Ver Serviços</Link>
                      </div>
                   </div>
                </div>

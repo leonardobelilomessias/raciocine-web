@@ -19,7 +19,7 @@ const social_icon: DataType[] = [
    {
       icon: "fab fa-instagram",
       class_name: "instagram",
-      link:"https://www.instagram.com/raciocinesoftware"
+      link:"https://www.instagram.com/raciocinesolucoes"
    },
    {
       icon: "fab fa-youtube",

@@ -21,7 +21,7 @@ const HomeTwo = () => {
    return (
       <>
          <HeaderTwo />
-         <Banner />
+         <Banner2 />
          <IntroArea />
          <About />
          <Service />
