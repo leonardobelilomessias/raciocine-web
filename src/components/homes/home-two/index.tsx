@@ -16,17 +16,19 @@ import HeaderTwo from "@/layouts/headers/HeaderTwo"
 import Brand from "./Brand"
 import FooterOne from "@/layouts/footers/FooterOne"
 import Testimonial from "./Testimonial"
-
+import aboutImg_1 from "@/assets/img/sections/robot.png"
+import IaElement from "@/components/common/SectionElement"
 const HomeTwo = () => {
    return (
       <>
          <HeaderTwo />
          <Banner2 />
          <IntroArea />
-         <About />
+         <IaElement img={aboutImg_1} shapeOne={true}/>
          <Service />
-         <SkillArea />
+         <About />
          <Counter />
+         <SkillArea />
          <PricingPlan />
          <VideoArea />
          <WorkArea />

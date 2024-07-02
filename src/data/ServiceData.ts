@@ -56,8 +56,33 @@ const service_data: DataType[] = [
    },
 
    // home_2
+
    {
       id: 1,
+      page: "home_2",
+      icon: "icomoon-application",
+      title: "Web design",
+      desc: "Criação e Desenvolvimento de landing pages, sites intitucionais e lojas virtuais/ Ecommerces.",
+      link:"/createsites"
+   },
+   {
+      id: 2,
+      page: "home_2",
+      icon: "icomoon-megaphone",
+      title: "Trafego Pago",
+      desc: "Criação de Anúncios e publicidade em grandes plataformas como Facebook, Intagram e Google. ",
+      link:"/trafego-pago"
+   },
+   {
+      id: 3,
+      page: "home_2",
+      icon: "icomoon-magnifiying-glass",
+      title: "Rankeamento Google",
+      desc: "Posicionamento no topo da lista dos principais mecanismos de busca como Google.",
+      link:"/seo"
+   },
+   {
+      id: 4,
       page: "home_2",
       icon: "icomoon-layer",
       title: "Criação de Apps",
@@ -65,46 +90,23 @@ const service_data: DataType[] = [
       link:"/desenvolvimento-de-aplicativos"
    },
    {
-      id: 2,
-      page: "home_2",
-      icon: "icomoon-application",
-      title: "Web design",
-      desc: "Criação e Desenvolvimento de  landing pages, sites intitucionais e lojas virtuais.",
-      link:"/createsites"
-   },
-   {
-      id: 3,
-      page: "home_2",
-      icon: "icomoon-megaphone",
-      title: "Trafego Pago",
-      desc: "Criação de Anúncios e publicidade em grandes plataformas como Facebook e Google. ",
-      link:"/trafego-pago"
-   },
-   {
-      id: 4,
+      id: 5,
       page: "home_2",
       icon: "icomoon-cloud-data",
       title: "Consultoria em T.I",
-      desc: "Analise desenvolvimento de soluções para transição de negócios para o mundo digital. ",
+      desc: "Analise desenvolvimento  de soluções personalizadas para transição de negócios para o mundo digital. ",
       link:"/consultoria-ti"
    },
 
    {
-      id: 5,
+      id: 6,
       page: "home_2",
       icon: "icomoon-lock",
       title: "Segurança Virtual",
       desc: "Analise, correção e prevenção de ataques e crimes constra  estruturas digitais. ",
       link:"/"
    },
-   {
-      id: 6,
-      page: "home_2",
-      icon: "icomoon-magnifiying-glass",
-      title: "Seo Rankeamento",
-      desc: "Posicionamento no topo da lista dos principais mecanismos de busca como Google.",
-      link:"/seo"
-   },
+
 
    // home_5
    

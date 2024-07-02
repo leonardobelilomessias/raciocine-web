@@ -6,7 +6,7 @@ import { useParallax } from "@/hooks/TweenMax";
 import { useRef } from "react";
 
 import banner_1 from "@/assets/img/banner/6.webp";
-import banner_2 from "@/assets/img/banner/bannery.png";
+import banner_2 from "@/assets/img/banner/bannerw.png";
 
 const Banner = () => {
 

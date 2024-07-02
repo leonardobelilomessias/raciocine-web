@@ -3,14 +3,14 @@ import Link from "next/link"
 
 const Service = () => {
    return (
-      <div id="services" className="service-area pd-top-115 pd-bottom-90" style={{ backgroundImage: `url(/assets/img/bg/6.webp)` }}>
-         <div className="container">
-            <div className="section-title">
+      <div id="services" className="service-area pd-top-100 pd-bottom-80" style={{ backgroundImage: `url(/assets/img/bg/6.webp)` }}>
+         <div className="container ">
+            <div className="section-title ">
                <div className="row">
-                  <div className="col-xl-6 col-lg-7 mb-4 mb-lg-0">
-                     <h5 className="sub-title left-border">O que nos oferecemos?</h5>
-                     <h2 className="title">Oferecemos Diversos Serviços Digitais.</h2>
-                     <p className="content mt-2">Temos equipes com experts em diversas areas para garantir o sucesso do seu negócio.</p>
+                  <div className="row d-flex ">
+                     <h5 className="sub-title  text-center ">Experts em resultados</h5>
+                     <h2 className="title text-center">Veja Nossos Serviços</h2>
+                     <p className="content mt-2 text-center">Dominio total em tecnologia para garantir o sucesso do seu negócio.</p>
                   </div>
                   <div className="col-xl-6 col-lg-5 align-self-center">
                      <div className="btn-wrap text-md-end">

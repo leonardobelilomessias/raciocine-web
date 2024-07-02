@@ -7,20 +7,20 @@ interface DataType {
 
 const skill_data: DataType[] = [
    {
-      title: "Desenvolvimento de sites e apps",
-      percentage: 75,
+      title: "Site Profissional e Lojas Virtuais",
+      percentage: 72,
    },
    {
-      title: "Consultoria em T.I",
-      percentage: 95,
+      title: "Anúncios e Trafego Pago",
+      percentage: 85,
    },
    {
-      title: "Digital Marketing",
-      percentage: 75,
+      title: "Seo e Rankeamento no Google",
+      percentage: 64,
    },
    {
-      title: "Seo Rankamento",
-      percentage: 60,
+      title: "Social Media",
+      percentage: 70,
    },
 ]
 

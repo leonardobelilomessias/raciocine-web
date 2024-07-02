@@ -22,7 +22,7 @@ const About = () => {
    };
 
    return (
-      <div className="about-area pd-top-90 pd-bottom-120">
+      <div className="about-area pd-top-90 pd-bottom-80">
          <div className="container">
             <div className="row">
                <div className="col-lg-6">
@@ -35,9 +35,9 @@ const About = () => {
                
                <div className="col-lg-6 align-self-center">
                   <div className="section-title px-lg-5 mb-0">
-                     <h5 className="sub-title left-border">Raciocine com Tecnologia</h5>
-                     <h2 className="title">Aumente os Lucros e Seja Referência de Mercado com Tecnologia.</h2>
-                     <p className="content-strong mt-2">Somos especialistas em desenvolvimento de tecnologia, que oferecem uma gigante vantagem no mercado.</p>
+                     <h5 className="sub-title left-border">Empreededores do Futuro</h5>
+                     <h2 className="title">Posicione-se no mercado como um profissional e aumente os lucros</h2>
+                     <p className="content-strong mt-2">Com nossas feraamentas e estratégias  seus clientes perceberam o alto valor dos seus produtos ou serviços.</p>
                      <ul className="nav nav-tabs tab-button-style mt-4" id="myTab" role="tablist">
                         {tab_title.map((tab, index) => (
                            <li key={index} className="nav-item">
