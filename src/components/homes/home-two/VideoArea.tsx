@@ -14,7 +14,7 @@ const VideoArea = () => {
                <div className="row justify-content-center">
                   <div className="col-lg-6 col-md-10">
                      <div className="section-title mb-4 style-white">
-                        <h2 className="title">"A melhor forma de prever o futuro, é criá-lo."</h2>
+                        <h2 className="title">{`"A melhor forma de prever o futuro, é criá-lo."`}</h2>
                         <p style={{color:"white", fontStyle:"italic"}}>- Peter Drucker</p>
                      </div>
                      {/* <a onClick={() => setIsVideoOpen(true)} style={{ cursor: "pointer" }} className="video-play-btn video-play-btn-base" data-effect="mfp-zoom-in"><i className="fa fa-play"></i></a> */}
