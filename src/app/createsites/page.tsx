@@ -4,12 +4,12 @@ import Wrapper from "@/layouts/Wrapper";
 import Servicedetails from "./service-details";
 
 export const metadata = {
-   title: "Criação de sites e lojas virtuais",
+   title: "Criação de site Profissional e loja virtual",
 };
 const index = () => {
    return (
       <Wrapper>
-         <Servicedetails title="Criação de Sites e Lojas Vituais" sub_title="Criação de Sites e Lojas Vituais" />
+         <Servicedetails title="Criação de Site Profissional e Loja Virtual" sub_title="Criação de Site Profissional e Loja Virtual" />
       </Wrapper>
    )
 }

@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/common/Breadcrumb"
 import HeaderOne from "@/layouts/headers/HeaderOne"
-
+import aboutImg_1 from "@/assets/img/service/sites/ecommerce2.png"
 import CtaArea from "@/components/common/CtaArea"
 import FooterOne from "@/layouts/footers/FooterOne"
 import HeaderTwo from "@/layouts/headers/HeaderTwo"
@@ -8,6 +8,7 @@ import PricingPlan from "@/components/homes/home-two/PricingPlan"
 import ServiceDetailsArea from "./ServiceDetailsArea"
 import Super from "./Super"
 import VideoArea from "./VideoArea"
+import DeveloperService from "./DeveloperService"
 
 
 const Servicedetails = ({title, sub_title}:{title?:string, sub_title?:string}) => {
@@ -17,7 +18,8 @@ const Servicedetails = ({title, sub_title}:{title?:string, sub_title?:string}) =
       <Breadcrumb title={title} sub_title={sub_title}/>
       <ServiceDetailsArea/>
       {/* <VideoArea/> */}
-      {/* <Super/> */}
+      { <Super img={aboutImg_1} shapeOne={false}/> }
+      <DeveloperService/>
       <PricingPlan/>
       <CtaArea/>
       <FooterOne/>

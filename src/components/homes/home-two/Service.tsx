@@ -8,7 +8,7 @@ const Service = () => {
             <div className="section-title ">
                <div className="row">
                   <div className="row d-flex ">
-                     <h5 className="sub-title  text-center ">Experts em resultados</h5>
+                     <h5 className="sub-title  text-center ">Temos a solução perfeita para seu negócio</h5>
                      <h2 className="title text-center">Veja Nossos Serviços</h2>
                      <p className="content mt-2 text-center">Dominio total em tecnologia para garantir o sucesso do seu negócio.</p>
                   </div>

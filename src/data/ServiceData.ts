@@ -61,8 +61,8 @@ const service_data: DataType[] = [
       id: 1,
       page: "home_2",
       icon: "icomoon-application",
-      title: "Web design",
-      desc: "Criação e Desenvolvimento de landing pages, sites intitucionais e lojas virtuais/ Ecommerces.",
+      title: "Criação de Sites",
+      desc: "Criação e Desenvolvimento  de sites, landing pages,  intitucionais e lojas virtuais/ Ecommerces.",
       link:"/createsites"
    },
    {
