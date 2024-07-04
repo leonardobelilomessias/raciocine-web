@@ -32,10 +32,10 @@ const menu_data: MenuItem[] = [
          // { link: "/service", title: "Service" },
          // { link: "/service-details", title: "Service Single" },
          { link: "/createsites", title: "Criação de Sites e Lojas Virtuais" },
-         { link: "/desenvolvimento-de-aplicativos", title: "Desenvolvimento de Apps" },
          { link: "/trafego-pago", title: "Trafego Pago e Anúncios" },
-         { link: "/consultoria-ti", title: "Consultoria em Tecnologia" },
          { link: "/seo", title: "Seo e Rankeamento de Busca" },
+         { link: "/desenvolvimento-de-aplicativos", title: "Desenvolvimento de Apps" },
+         { link: "/consultoria-ti", title: "Consultoria em Tecnologia" },
 
 
 
