@@ -30,7 +30,7 @@ const Blog = () => {
                               <li><i className="far fa-calendar-alt me-2"></i>{item.date}</li>
                            </ul>
                            <p>{item.desc}</p>
-                           <Link className="read-more-text" href="/blog-details">
+                           <Link className="read-more-text" href="/#">
                               Continue Lendo <i className="fa fa-caret-right"></i></Link>
                         </div>
                      </div>
