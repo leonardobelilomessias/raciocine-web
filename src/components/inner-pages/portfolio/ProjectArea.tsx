@@ -36,11 +36,11 @@ const ProjectArea = () => {
    const filteredProjects = getFilteredProjects();
 
    return (
-      <section className="project-area" style={{paddingTop:"20px"}}>
+      <section className="project-area pd-top-115 pd-bottom-90">
          <div >
             <div className="row justify-content-center">
                <div className="col-lg-8">
-               <div className="isotope-filters project-isotope-btn text-center ">
+               <div className="isotope-filters project-isotope-btn text-center mb-5">
                      {tab_titles.map((tab, index) => (
                         <button key={index} onClick={() => handleTabClick(index)} className={`button ${activeTab === index ? "active" : ""}`}>
                            {tab}

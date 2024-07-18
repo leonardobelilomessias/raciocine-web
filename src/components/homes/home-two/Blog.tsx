@@ -24,7 +24,7 @@ const Blog = () => {
                            <Image src={item.img} alt="img" />
                         </div>
                         <div className="details">
-                           <h4><Link href="/blog-details">{item.title}</Link></h4>
+                           <h4><Link href="/#">{item.title}</Link></h4>
                            <ul className="blog-meta">
                               <li><i className="far fa-user"></i> By Admin</li>
                               <li><i className="far fa-calendar-alt me-2"></i>{item.date}</li>

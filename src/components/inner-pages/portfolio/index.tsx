@@ -4,12 +4,11 @@ import Brand from "@/components/homes/home-three/Brand"
 import FooterOne from "@/layouts/footers/FooterOne"
 import HeaderThree from "@/layouts/headers/HeaderThree"
 import ProjectArea from "./ProjectArea"
-import HeaderTwo from "@/layouts/headers/HeaderTwo"
 
 const Project = () => {
    return (
       <>
-         <HeaderTwo />
+         <HeaderThree />
          <Breadcrumb title="Portfolio" sub_title="Projetos Realizados" />
          <ProjectArea />
          <Brand />

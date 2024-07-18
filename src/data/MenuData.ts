@@ -68,8 +68,15 @@ const menu_data: MenuItem[] = [
    {
       id: 5,
       has_dropdown: false,
+      title: "Portifolio",
+      link: "/portfolio",
+   },
+   {
+      id: 6,
+      has_dropdown: false,
       title: "Contato",
       link: "/contact",
    },
+
 ];
 export default menu_data;
