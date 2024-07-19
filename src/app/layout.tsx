@@ -25,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={isDev}>
       <head>
+        <meta name="facebook-domain-verification" content="sofmw23mr36z94i6ffw62rlw3xc3x8" />
         <meta name="description" content="Raciocine - Soluçoes Inteligentes" />
         <link rel="icon" href="/favicon.webp" sizes="any" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Poppins:400,500,600,700|Rubik:400,500,600,700|family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" />
