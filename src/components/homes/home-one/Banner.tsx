@@ -16,23 +16,24 @@ const Banner = () => {
    return (
       <div className="banner-area banner-area-1 bg-banner bg-relative" ref={containerRef}>
          <motion.div animate={{ x: parallaxX * 2.5, y: parallaxY * 1 }} className="banner-bg-img" style={{ backgroundImage: `url(/assets/img/banner/2.webp)` }}></motion.div>
-         <div className="container">
+         <div className="container" >
             <div className="row justify-content-center">
                <div className="col-lg-6 col-md-7 text-center text-lg-end order-lg-last">
                   <div className="banner-mask-bg-wrap mb-5 mb-lg-0">
                      
                      <div >
                         <Image src={banner_2} alt="img" />
+                        
                      </div>
                   </div>
                </div>
                <div className="col-lg-6 col-md-9 order-lg-first align-self-center">
                   <div className="banner-inner style-white  text-center text-lg-start">
-                     <h4 className="sub-title">Aumente seus Lucros</h4>
-                     <h2 className="title">Soluções Inteligentes</h2>
-                     <h2 className="title">Negócios de Sucesso</h2>
+                     <h4 className="sub-title">Aumente seus resultados</h4>
+                     <h2 className="title">Aumente Seus </h2>
+                     <h2 className="title"> Lucros Com Tecnologia</h2>
 
-                     <p className="content">Utilize das tecnologias de ponta usadas por grandes empresa, para almentar seus lucros e fazer seu negócio crescer exponencialmente</p>
+                     <p className="content">Utilize das tecnologias de ponta usadas por grandes empresa, para alcançar mais clientes, aumentar seus lucros e fazer seu negócio crescer exponencialmente</p>
                      <div className="btn-wrap">
                         <Link target="_black" className="it-btn btn-base mr-space" href="https://wa.me/5531986261771?text=Olá! Gostaria de saber mais informações sobre os serviços.">Chamar no Whatsapp</Link>
                         <Link className="it-btn btn-border-white" href="#services">Ver Serviços</Link>

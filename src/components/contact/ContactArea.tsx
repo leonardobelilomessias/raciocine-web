@@ -21,7 +21,7 @@ const ContactArea = () => {
                      <div className="details-wrap">
                         <div className="details-inner">
                            <h3>Endereço do Escritorio</h3>
-                           <p>Rua Alagoas 1326 - Savassi - Belo Horizonte - Minas Gerais - Brazil</p>
+                           <p>Avenida do Contorno 2905 - Santa Efigênia - Belo Horizonte - Minas Gerais - Brazil</p>
                         </div>
                      </div>
                   </div>

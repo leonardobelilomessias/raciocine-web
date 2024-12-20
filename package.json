@@ -12,6 +12,7 @@
     "@hookform/resolvers": "^3.3.4",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.3",
+    "brave": "^0.0.9",
     "fauna": "^2.1.0",
     "firebase": "^10.12.2",
     "framer-motion": "^10.16.4",

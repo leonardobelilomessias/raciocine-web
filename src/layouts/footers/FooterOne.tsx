@@ -12,7 +12,7 @@ const FooterOne = () => {
                      <h4 className="widget-title">Nossa Empresa</h4>
                      <div className="details">
                         <p>Sede</p>
-                        <p> Rua Alagoas 1326 - Savassi - Belo Horizonte  -  Minas Gerais - Brazil</p>
+                        <p> Avenida do Contorno 2905 - Santa Efigênia - Belo Horizonte  -  Minas Gerais - Brazil</p>
                         <ul className="social-media">
                            <SocialIcon />
                         </ul>
